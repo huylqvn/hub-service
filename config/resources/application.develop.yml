@@ -1,0 +1,33 @@
+database:
+  dialect: postgres
+  host:  "103.82.38.155"
+  port: 5432
+  dbname: hub
+  username: postgres
+  password: 0Canpass!!!
+  migration: true
+
+extension:
+  master_generator: true
+  cors_enabled: true
+  security_enabled: true
+
+log:
+  request_log_format: ${remote_ip} ${User_name} ${uri} ${method} ${status}
+
+swagger:
+  enabled: true
+  path: /swagger/.*
+
+security:
+  auth_path:
+    - /api/.*
+  exclude_path:
+    - /swagger/.*
+    - /api/auth/login$
+    - /api/auth/logout$
+    - /api/health$
+  user_path:
+    - /api/.*
+  admin_path:
+    - /api/.*
