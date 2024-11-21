@@ -3,7 +3,6 @@ module hub-service
 go 1.22
 
 require (
-	github.com/alecthomas/template v0.0.0-20190718012654-fb15b899a751
 	github.com/garyburd/redigo v1.6.4 // indirect
 	github.com/go-openapi/jsonreference v0.21.0 // indirect
 	github.com/go-openapi/swag v0.23.0 // indirect
@@ -25,7 +24,7 @@ require (
 	gopkg.in/natefinch/lumberjack.v2 v2.2.1
 	gopkg.in/yaml.v3 v3.0.1
 	gorm.io/driver/mysql v1.5.6
-	gorm.io/driver/postgres v1.5.7
+	gorm.io/driver/postgres v1.5.10
 	gorm.io/gorm v1.25.10
 )
 
@@ -58,14 +57,16 @@ require (
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 )
 
-require github.com/urfave/cli/v2 v2.3.0
+require (
+	github.com/google/uuid v1.6.0
+	github.com/urfave/cli/v2 v2.3.0
+)
 
 require (
 	filippo.io/edwards25519 v1.1.0 // indirect
 	github.com/cpuguy83/go-md2man/v2 v2.0.0-20190314233015-f79a8a8ca69d // indirect
 	github.com/dustin/go-humanize v1.0.1 // indirect
 	github.com/glebarez/go-sqlite v1.22.0 // indirect
-	github.com/google/uuid v1.6.0 // indirect
 	github.com/jackc/puddle/v2 v2.2.1 // indirect
 	github.com/ncruces/go-strftime v0.1.9 // indirect
 	github.com/remyoudompheng/bigfft v0.0.0-20230129092748-24d4a6f8daec // indirect
