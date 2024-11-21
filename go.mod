@@ -60,12 +60,12 @@ require (
 
 require (
 	github.com/google/uuid v1.6.0
-	github.com/urfave/cli/v2 v2.3.0
+	github.com/urfave/cli/v2 v2.27.5
 )
 
 require (
 	filippo.io/edwards25519 v1.1.0 // indirect
-	github.com/cpuguy83/go-md2man/v2 v2.0.0-20190314233015-f79a8a8ca69d // indirect
+	github.com/cpuguy83/go-md2man/v2 v2.0.5 // indirect
 	github.com/dustin/go-humanize v1.0.1 // indirect
 	github.com/glebarez/go-sqlite v1.22.0 // indirect
 	github.com/jackc/puddle/v2 v2.2.1 // indirect
