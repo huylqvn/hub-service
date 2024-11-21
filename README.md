@@ -13,7 +13,7 @@ There are 2 methods for starting server.
 ### Without Web Server
 1. Starting this web application by the following command.
     ```bash
-    go run main.go
+    go run main.go server
     ```
 1. When startup is complete, the console shows the following message:
     ```
@@ -28,7 +28,7 @@ There are 2 methods for starting server.
 #### Starting Application Server
 1. Starting this web application by the following command.
     ```bash
-    go run main.go
+    go run main.go server
     ```
 1. When startup is complete, the console shows the following message:
     ```
