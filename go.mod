@@ -14,7 +14,7 @@ require (
 	github.com/mattn/go-isatty v0.0.20 // indirect
 	github.com/stretchr/testify v1.9.0
 	github.com/swaggo/echo-swagger v1.4.1
-	github.com/swaggo/swag v1.16.3
+	github.com/swaggo/swag v1.16.4
 	github.com/valyala/fasttemplate v1.2.2
 	go.uber.org/zap v1.27.0
 	golang.org/x/crypto v0.23.0
