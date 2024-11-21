@@ -1,12 +1,13 @@
 module hub-service
 
 go 1.22
+toolchain go1.23.3
 
 require (
 	github.com/garyburd/redigo v1.6.4 // indirect
 	github.com/go-openapi/jsonreference v0.21.0 // indirect
 	github.com/go-openapi/swag v0.23.0 // indirect
-	github.com/gorilla/sessions v1.2.2
+	github.com/gorilla/sessions v1.4.0
 	github.com/labstack/echo-contrib v0.17.1
 	github.com/labstack/echo/v4 v4.12.0
 	github.com/mailru/easyjson v0.7.7 // indirect
